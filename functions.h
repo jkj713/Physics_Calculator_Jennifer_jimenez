@@ -21,6 +21,7 @@ void handleOption(string userOption)
     //declaration and initializtion of variables
     double mass3 = 0.0, mass2 = 0.0, weight = 0.0, momentum = 0.0, mass = 0.0, velocity = 0.0, acceleration = 0.0, N = 0.0, speed = 0.0, time = 0.0; 
     double gravity = 9.81;
+    //Declaring the units of measure
     string massUnits = "kg", velocityUnits = "m/s", weightUnits = "lbs", speedUnits = "km", timeUnits = "hr", cOTUnits = "seconds", cOVUnits = "m", accelerationUnits = "m/sec";
     //A option
     if(userOption == "A" || userOption == "a")
@@ -96,6 +97,7 @@ void handleOption(string userOption)
       //output
       cout << "If your mass is " << mass << massUnits << ", and your velocity is " << velocity << velocityUnits << ", then your momentum is: " << momentum << " kg m/s" << endl;
     }
+    //End Program option
     else if(userOption == "G" || userOption == "g")
     {
       cout << "\nEnd program. Goodbye!!" << endl; 
